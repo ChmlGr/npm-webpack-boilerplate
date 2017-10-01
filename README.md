@@ -48,6 +48,12 @@ When you create an extension module to the node it can be deployed as a central 
 
 `package.json` file is basically faithful to follow the specification of which is CommonJS file in JSON format. Also directly create or may be automatically generated via npm init command. And information on the extension used for the application may automatically add the information to the module through the `npm install -save`.
 
+### `package-lock.json`
+
+
+See https://docs.npmjs.com/files/package-locks.
+npm recomends that package-lock.json is checked into source control.
+
 ## License
 ```
 MIT License
